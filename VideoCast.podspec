@@ -8,6 +8,7 @@ Pod::Spec.new do |s|
   s.source    = { :git => 'https://github.com/openfresh/VideoCast-Swift.git', :tag => s.version }
 
   s.ios.deployment_target = '8.0'
+  s.osx.deployment_target = '10.14'
 
 s.source_files = [ 'Source/**/*.{swift,h,metal}', 'SRT/*.{h,cpp}', 'SRT/Includes/*.h' ]
   s.public_header_files = [ 'SRT/Includes/*.h', 'SRT/udt_wrapper.h', 'Source/System/ShaderDefinitions.h' ]
